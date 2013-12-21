@@ -29,7 +29,8 @@ public class ListBeaconsActivity extends Activity {
   private static final String TAG = ListBeaconsActivity.class.getSimpleName();
 
   private static final int REQUEST_ENABLE_BT = 1234;
-  private static final String ESTIMOTE_PROXIMITY_UUID = "B9407F30-F5F8-466E-AFF9-25556B57FE6D";
+  private static final String ESTIMOTE_PROXIMITY_UUID = "b9407f30-f5f8-466e-aff9-25556b57fe6d";
+  //private static final String ESTIMOTE_PROXIMITY_UUID = "B9407F30-F5F8-466E-AFF9-25556B57FE6D";
   private static final Region ALL_ESTIMOTE_BEACONS_REGION = new Region(ESTIMOTE_PROXIMITY_UUID, null, null);
 
   private BeaconManager beaconManager;
